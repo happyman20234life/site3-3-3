@@ -1,0 +1,57 @@
+/* this applies to all buttons */
+body {
+    background-color: #2f3542;
+    text-align: center;
+}
+
+button {
+    position: relative;
+}
+
+button {
+    display: inline;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    background: #333;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 3px solid #333;
+    transition: all 2.5s;
+}
+
+/* time shooter 3 */
+#ts3:hover {
+    transition: all .35s;
+    border: 3px solid #8400ff;
+    background: transparent;
+    color: #8400ff;
+}
+
+/* Time Shooter 2 */
+#ts2:hover {
+    transition: all .35s;
+    border: 3px solid #00ff40;
+    background: transparent;
+    color: #00ff40
+}
+
+/* Tiny Fishing */
+#tf:hover {
+    transition: all .35s;
+    border: 3px solid #0004ff;
+    background: transparent;
+    color: #0004ff;
+}
+
+#fb:hover {
+    transition: all .35s;
+    border: 3px solid #e90b1d;
+    background: transparent;
+    color: #e90b1d;
+}

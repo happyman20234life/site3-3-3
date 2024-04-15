@@ -1,0 +1,33 @@
+body {
+    background-color: #333;
+}
+
+h1 {
+    text-shadow: #FC0 1px 0 10px;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+}
+
+h3 {
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.aboutme {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+a {
+    color: rgb(0, 255, 98);
+    text-decoration: none;
+    transition: 2s;
+}
+
+a:hover {
+    color: rgb(255, 17, 0);
+    transition: 0.7s;
+}
